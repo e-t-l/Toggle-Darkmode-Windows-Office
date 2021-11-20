@@ -8,7 +8,7 @@ A simple powershell script (and shortcut) to add a Toolbar button to toggle Dark
 3. Inside of the newly unpacked folder, create a folder named "Dark Mode".
 4. Inside "Dark Mode", create a new shortcut.
 5. For its Target, type: `powershell -ExecutionPolicy Bypass -windowstyle hidden -File` followed by the full path to ThemeToggle.ps1.
-6. Set the shortcut to open Minimized, point the shortcut icon to `icon50.ico`, and save it.
+6. Set the shortcut to open Minimized, point the shortcut icon to "icon_50.ico", and save it.
 7. Right-click the taskbar, click **Toolbars > New toolbar...** then navigate to Dark Mode and hit **Select**.
 8. Right-click the newly created "Dark Mode" toolbar, uncheck **Show Text** and **Show Title**, then click **View > Large Icons**.
 9. Right-click on the parent folder where you originally unpacked everything, click **Properties**, and check **Hidden** (do _not_ apply this to child folders).
